@@ -1,6 +1,6 @@
 <?php
 
-$mysqli = new mysqli("localhost","root","","common kitchen");
+$mysqli = new mysqli("186.149.135.32","root","","common kitchen");
 
 $salida= "";
 $query = "SELECT * FROM recetas";
