@@ -1,0 +1,245 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    position: relative;
+    top: 70px;
+}
+.contenedor1{
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    display: flex;
+    text-align: left;
+    position: fixed;
+    top: -10px;
+    z-index: 2;
+}
+.img{
+    width: 33%;
+    padding-left: 100px;
+    padding-right: 300px;
+}
+.list1{
+    border: 1px solid rgb(231, 205, 57) ;
+    border-radius: 5px;
+    color: rgb(231, 205, 57) ;
+    padding: 5px;
+    display: flex;
+    float: left;
+    font-size: 24px;
+    margin:5px;
+    background-color: transparent;
+}
+.list1:hover{
+    color: rgb(255, 255, 255);
+    border:2px solid white;
+}
+.info1{
+
+margin-top: 10%;
+background-color: rgb(255, 255, 255);
+max-height: 500px;
+border-radius: 5px;
+margin: 5px;
+text-align: center;
+padding: 20px  ;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.piedepagina{
+    display: flex;
+    background-color: white;
+    max-height: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid rgb(197, 197, 197);
+}
+.common{
+    padding: 10%;
+    text-align: center;
+}
+.img2{
+    padding-left: 60%;
+}
+.demo{
+    align-items: center;
+    padding: 20px;
+    max-height: 500px ;
+    padding:5%; 
+    float: right;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.contenedor2{
+    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin-left: 10%; 
+}
+.contenedor3{
+    background-color: rgb(0, 0, 0);
+    color: rgb(231, 205, 57);
+    max-height: 500px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    padding: 20px  ;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    
+}
+.demo{
+    align-items: center;
+    padding: 20px;
+    max-height: 500px ;
+    padding:5%; 
+    float: right;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.figma{
+    max-height: 20%;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.contenedor4{
+    background-color: rgb(0, 0, 0);
+    color: rgb(231, 205, 57);
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    padding: 20px  ;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin: 0 10%;
+    
+}
+
+.info2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    padding: 20px  ;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 1050px;
+    align-items: center;
+    }
+.Ref{
+    color: rgb(231, 205, 57) ;
+    text-decoration: none;
+    }
+
+    .Ref:hover{
+        color: rgb(255, 255, 255);
+    }
+.contenedorSup{
+background-color: rgb(255, 255, 255);
+max-height: 500px;
+border-radius: 5px;
+margin: 5px;
+text-align: center;
+padding: 20px  ;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-image:url(./Recursos/Img/sushi-plato-estilo-fotografia-comida-oscura_158593-45.jpg);
+color: honeydew;
+height: 350px;
+margin: 0 5%;
+border: 2px solid white;
+margin-bottom: 5%;
+}        
+.support1:img{
+    border:1px solid black;
+    border-radius: 5px;
+    display: inline-flex;
+    
+    padding: 2%;
+
+}
+.Buscador{
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    max-height: 2%;
+    padding: 1% 5%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+}
+.entrada1{
+    border-radius: 10px;
+    background-color: rgb(88, 88, 88);
+    width: 820px;
+    height: 52px ;
+}
+.info3{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    padding: 20px  ;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.img3{
+    float: right;
+}
+   
+ .limpiador{
+     clear: both;
+ }
+
+ .form1{
+     align-items: center;
+     margin:20% , 40%; 
+ }
+
+.Datos{
+    padding: 2rem;
+    margin: 2rem 0rem;
+    border: 1px solid rgb(46, 46, 46);
+}
+.alert{
+    width: 100%;;
+    padding: 1rem 1rem;
+    background-color: rgb(255, 65, 65);
+    color: white;
+}
+tr{
+    transition: 0.3s;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+tr td{
+    padding: 1rem 1rem !important;
+}
+thead tr{
+    background-color: rgb(95, 95, 95);
+    color: rgb(240, 236, 236);
+}
+thead tr td{
+    font-weight: bold;
+}
+tr:hover{
+    background-color: rgb(228, 228, 228);
+}
+.container{
+    padding: 1rem 1rem;
+}
+
