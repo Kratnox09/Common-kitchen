@@ -15,26 +15,31 @@ $resultado = $mysqli->query($query);
 if($resultado->num_rows > 0){
     $salida.="<table class='tabla_datos'>
                    <thead>
-                      <tr>
-                        <td>id</td>
-                        <td>Nombre</td>
-                        <td>Receta</td>
-                        <td>ingredientes</td>
+                      <tr style='transition: 0.3s;
+                      border-bottom: 1px solid rgb(236, 236, 236);'>
+                        <td style='border-bottom: 1px solid rgb(119, 103, 99)'>id</td>
+                        <td style='border-bottom: 1px solid rgb(119, 103, 99)'>Nombre</td>
+                        <td style='border-bottom: 1px solid rgb(119, 103, 99)'>Receta</td>
+                        <td style='border-bottom: 1px solid rgb(119, 103, 99)'>ingredientes</td>
                       </tr>
                    </thead>
                    <tbody>"; 
     while($fila = $resultado->fetch_assoc()){
         $salida.="<tr>
-                   <td>".$fila['id']."</td>
-                   <td>".$fila['Nombre']."</td>
-                    <td>".$fila['Receta']."</td>
-                    <td>".$fila['ingredientes']."</td>
+                   <td style='border-bottom: 1px solid rgb(119, 103, 99)'>".$fila['id']."</td>
+                   <td style='border-bottom: 1px solid rgb(119, 103, 99)'>".$fila['Nombre']."</td>
+                    <td style='border-bottom: 1px solid rgb(119, 103, 99)'>".$fila['Receta']."</td>
+                    <td style='border-bottom: 1px solid rgb(119, 103, 99)'>".$fila['ingredientes']."</td>
         </tr>";
     }
     $salida.="</tbody></table>";
 }
 else{
-  $salida.="<div class='alert'>No hay datos disponibles</div>";
+  $salida.="<div class='alert' style=' width: 100%;;
+  padding: 1rem 1rem;
+  background-color: rgb(255, 65, 65);
+  color: white;
+  border: 1px solid gray;'>No hay datos disponibles</div>";
 }
 
 echo $salida;
